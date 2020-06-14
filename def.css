@@ -1,0 +1,76 @@
+#A{
+	text-align: center;
+}
+#i{
+  background-image: url("https://www.imagediamond.com/blog/wp-content/uploads/2020/03/Indian-army-images-15.jpg");
+  background-repeat: no-repeat;
+    background-position: center;
+    height:3420px;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
+#b{
+  background-image: :url("https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png");
+		background-position: top;
+    background-repeat: no-repeat;
+		height:3200px;
+		background-size: cover;
+		background-attachment: fixed;
+  }
+#q{
+background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png");
+background-repeat: no-repeat;
+    background-position: top;
+    height:3420px;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.container {
+  position: relative;
+  width: 60%;
+}
+
+.image {
+  display: block;
+  width: 75%;
+  height: auto;
+  margin-left:auto;
+  margin-right: 70;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 50;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 57%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.n { 
+              border:1px; 
+              background-color:black; 
+              color:white; 
+              padding:6px; 
+          } 
